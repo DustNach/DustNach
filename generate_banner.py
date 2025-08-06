@@ -9,15 +9,15 @@ import random
 def generate_v31n73_banner():
     """Genera un banner ASCII con v31n73 y efectos dinámicos"""
     
-    # ASCII art para v31n73
-    ascii_art = """
+    # ASCII art para v31n73 - Mejorado para GitHub
+    ascii_art = """<pre>
 ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗ 
 ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗
 ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝
 ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗
  ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝
   ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝ 
-"""
+</pre>"""
     
     # Obtener fecha y hora actual
     now = datetime.datetime.now()
@@ -40,8 +40,8 @@ def generate_v31n73_banner():
     ]
     random_quote = random.choice(quotes)
     
-    banner = f"""
-<div align="center">
+    # Crear el banner completo
+    banner = f"""<div align="center">
 
 {ascii_art}
 
@@ -66,7 +66,7 @@ class DustNach:
     def get_current_project(self):
         projects = [
             "🎮 Desarrollando un juego indie",
-            "🤖 Creando un bot inteligente",
+            "🤖 Creando un bot inteligente", 
             "🎵 App de producción musical",
             "💻 Plataforma web innovadora",
             "🚀 Herramientas de desarrollo"
@@ -90,8 +90,7 @@ print(f"Estado: {{dev.status}}")
 
 ---
 
-</div>
-"""
+</div>"""
     
     return banner
 

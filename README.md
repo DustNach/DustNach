@@ -1,19 +1,18 @@
 <!-- BANNER_START -->
-
 <div align="center">
 
-
+<pre>
 ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗ 
 ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗
 ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝
 ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗
  ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝
   ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝ 
+</pre>
 
+### 🎯 Desarrollador Full Stack | 🎮 Creador Digital | 🚀 Innovador
 
-### 🎯 Desarrollador Full Stack | 🎯 Creador Digital | 🚀 Innovador
-
-💡 'El código es poesía en movimiento'
+✨ 'La innovación nace de la curiosidad'
 
 ```python
 class DustNach:
@@ -32,7 +31,7 @@ class DustNach:
     def get_current_project(self):
         projects = [
             "🎮 Desarrollando un juego indie",
-            "🤖 Creando un bot inteligente",
+            "🤖 Creando un bot inteligente", 
             "🎵 App de producción musical",
             "💻 Plataforma web innovadora",
             "🚀 Herramientas de desarrollo"
@@ -52,12 +51,11 @@ print(f"Estado: {dev.status}")
 
 <img src="https://komarev.com/ghpvc/?username=DustNach&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views"/>
 
-*🕒 Última actualización: 2025-08-06 16:15:24 UTC*
+*🕒 Última actualización: 2025-08-06 16:38:54 UTC*
 
 ---
 
 </div>
-
 <!-- BANNER_END -->
 
 # DustNach
