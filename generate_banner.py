@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """
 Script para generar un banner animado con 'v31n73' en ASCII art
+Con manejo robusto de errores y logging
 """
 
 import datetime
 import random
+import sys
+import os
 
 def generate_v31n73_banner():
     """Genera un banner ASCII con v31n73 y efectos dinámicos"""
@@ -116,36 +119,86 @@ print(f"Estado: {{dev.status}}")
     return banner
 
 def update_readme():
-    """Actualiza el README.md con el nuevo banner"""
-    banner = generate_v31n73_banner()
-    
-    # Leer el README actual
+    """Actualiza el README.md con el nuevo banner con manejo robusto de errores"""
     try:
-        with open('README.md', 'r', encoding='utf-8') as f:
-            content = f.read()
-    except FileNotFoundError:
+        print("🔄 Generando nuevo banner...")
+        banner = generate_v31n73_banner()
+        
+        if not banner or len(banner.strip()) == 0:
+            raise ValueError("Banner generado está vacío")
+        
+        # Leer el README actual
+        readme_path = 'README.md'
         content = ""
-    
-    # Buscar y reemplazar el banner existente o agregarlo al inicio
-    banner_start = "<!-- BANNER_START -->"
-    banner_end = "<!-- BANNER_END -->"
-    
-    if banner_start in content and banner_end in content:
-        # Reemplazar banner existente
-        start_idx = content.find(banner_start)
-        end_idx = content.find(banner_end) + len(banner_end)
-        new_content = (content[:start_idx] + 
-                      f"{banner_start}\n{banner}\n{banner_end}" + 
-                      content[end_idx:])
-    else:
-        # Agregar banner al inicio
-        new_content = f"{banner_start}\n{banner}\n{banner_end}\n\n{content}"
-    
-    # Escribir el nuevo contenido
-    with open('README.md', 'w', encoding='utf-8') as f:
-        f.write(new_content)
-    
-    print("✅ Banner actualizado exitosamente!")
+        
+        if os.path.exists(readme_path):
+            try:
+                with open(readme_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                print(f"📖 README existente leído ({len(content)} caracteres)")
+            except Exception as e:
+                print(f"⚠️ Error leyendo README existente: {e}")
+                content = ""
+        else:
+            print("📝 Creando nuevo README.md")
+        
+        # Buscar y reemplazar el banner existente o agregarlo al inicio
+        banner_start = "<!-- BANNER_START -->"
+        banner_end = "<!-- BANNER_END -->"
+        
+        if banner_start in content and banner_end in content:
+            # Reemplazar banner existente
+            start_idx = content.find(banner_start)
+            end_idx = content.find(banner_end) + len(banner_end)
+            new_content = (content[:start_idx] + 
+                          f"{banner_start}\n{banner}\n{banner_end}" + 
+                          content[end_idx:])
+            print("🔄 Banner existente reemplazado")
+        else:
+            # Agregar banner al inicio
+            new_content = f"{banner_start}\n{banner}\n{banner_end}\n\n{content}"
+            print("➕ Banner agregado al inicio del README")
+        
+        # Validar que el contenido no esté vacío
+        if not new_content or len(new_content.strip()) == 0:
+            raise ValueError("Contenido final del README está vacío")
+        
+        # Crear backup del README anterior si existe
+        if os.path.exists(readme_path) and len(content) > 0:
+            backup_path = f"README.md.backup.{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
+            try:
+                with open(backup_path, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                print(f"💾 Backup creado: {backup_path}")
+            except Exception as e:
+                print(f"⚠️ No se pudo crear backup: {e}")
+        
+        # Escribir el nuevo contenido
+        with open(readme_path, 'w', encoding='utf-8') as f:
+            f.write(new_content)
+        
+        print(f"✅ Banner actualizado exitosamente! ({len(new_content)} caracteres)")
+        print(f"🕒 Timestamp: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        
+        return True
+        
+    except Exception as e:
+        print(f"❌ Error actualizando README: {e}")
+        print(f"🔍 Detalles del error: {type(e).__name__}")
+        return False
 
 if __name__ == "__main__":
-    update_readme()
+    try:
+        success = update_readme()
+        if success:
+            print("🎉 Proceso completado exitosamente!")
+            sys.exit(0)
+        else:
+            print("💥 Proceso falló")
+            sys.exit(1)
+    except KeyboardInterrupt:
+        print("\n⏹️ Proceso interrumpido por el usuario")
+        sys.exit(1)
+    except Exception as e:
+        print(f"💥 Error crítico: {e}")
+        sys.exit(1)
