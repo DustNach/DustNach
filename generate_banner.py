@@ -23,9 +23,13 @@ def generate_v31n73_banner():
     now = datetime.datetime.now()
     timestamp = now.strftime("%Y-%m-%d %H:%M:%S UTC")
     
-    # Generar elementos dinámicos
-    coding_emojis = ["💻", "🚀", "⚡", "🔥", "✨", "🎯", "🎮", "🤖"]
+    # Generar elementos dinámicos más variados
+    coding_emojis = ["💻", "🚀", "⚡", "🔥", "✨", "🎯", "🎮", "🤖", "🎨", "🎵", "💡", "🌟"]
     random_emoji = random.choice(coding_emojis)
+    
+    # Emoji adicional para más variación
+    extra_emojis = ["🌈", "🎪", "🎭", "🎲", "🎸", "🎹", "🎤", "🎧"]
+    extra_emoji = random.choice(extra_emojis)
     
     # Citas de programación dinámicas
     quotes = [
@@ -40,14 +44,31 @@ def generate_v31n73_banner():
     ]
     random_quote = random.choice(quotes)
     
+    # Estado dinámico basado en la hora
+    hour = now.hour
+    if 6 <= hour < 12:
+        status_emoji = "☕"
+        status_text = "Modo café matutino activado"
+    elif 12 <= hour < 18:
+        status_emoji = "🚀"
+        status_text = "Productividad al máximo"
+    elif 18 <= hour < 22:
+        status_emoji = "🎮"
+        status_text = "Hora de crear y experimentar"
+    else:
+        status_emoji = "🌙"
+        status_text = "Programando bajo las estrellas"
+    
     # Crear el banner completo
     banner = f"""<div align="center">
 
 {ascii_art}
 
-### 🎯 Desarrollador Full Stack | {random_emoji} Creador Digital | 🚀 Innovador
+### 🎯 Desarrollador Full Stack | {random_emoji} Creador Digital | {extra_emoji} Innovador
 
 {random_quote}
+
+**{status_emoji} Estado actual:** *{status_text}*
 
 ```python
 class DustNach:
