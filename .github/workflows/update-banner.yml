@@ -1,0 +1,51 @@
+name: 🚀 Update Dynamic Profile Banner
+
+on:
+  schedule:
+    # Ejecutar cada 4 horas para mantener el perfil fresco
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # Permite ejecutar manualmente desde GitHub
+  push:
+    branches: [ main, master ]
+
+jobs:
+  update-banner:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: ✨ Generate new dynamic banner
+      run: python generate_banner.py
+    
+    - name: 📊 Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: 🚀 Commit and push changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "DustNach Bot 🤖"
+        git add README.md
+        git commit -m "🎯 Auto-update dynamic profile banner - $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
+    
+    - name: 📝 Log update
+      run: |
+        echo "✅ Profile banner updated successfully!"
+        echo "🕒 Timestamp: $(date)"

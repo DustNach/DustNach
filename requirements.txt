@@ -1,0 +1,3 @@
+# Dependencias para el generador de banner dinámico
+# No se requieren dependencias externas para este proyecto
+# Python estándar es suficiente
