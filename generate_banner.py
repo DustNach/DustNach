@@ -9,6 +9,12 @@ import random
 import sys
 import os
 
+# Configurar codificación UTF-8 para Windows
+if sys.platform.startswith('win'):
+    import codecs
+    sys.stdout = codecs.getwriter('utf-8')(sys.stdout.detach())
+    sys.stderr = codecs.getwriter('utf-8')(sys.stderr.detach())
+
 def generate_v31n73_banner():
     """Genera un banner ASCII con v31n73 y efectos dinámicos"""
     
