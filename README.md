@@ -5,31 +5,38 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=120&section=header&text=%20&fontSize=24&fontColor=ffffff&animation=fadeIn" alt="Header"/>
 
 <br>
+
+<!-- Banner principal con diseño masculino perfectamente centrado -->
+<table align="center" width="100%">
+<tr>
+<td align="center">
+
+```
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                    ┃
+┃  🎯  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   🎯  ┃
+┃     ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗     ┃
+┃     ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝     ┃
+┃     ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗     ┃
+┃      ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝      ┃
+┃       ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝       ┃
+┃                                                                    ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+```
+
+</td>
+</tr>
+</table>
+
 <br>
 
-<!-- Banner profesional con nombre dinámico -->
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=48&duration=1200&pause=600&color=10b981&center=true&vCenter=true&multiline=false&width=400&height=70&lines=v31n73;DustNach" alt="Name"/>
-
-</div>
-
-<!-- Separador elegante -->
+<!-- Efecto visual con typing SVG centrado -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=10b981&height=3" alt="Line"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=32&duration=3000&pause=1000&color=10b981&center=true&vCenter=true&multiline=true&width=700&height=120&lines=FULL+STACK+DEVELOPER;DIGITAL+CREATOR;TECH+INNOVATOR" alt="Typing SVG" />
 </div>
 
-<br>
-
-<!-- Rol profesional dinámico -->
-<div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=24&duration=1500&pause=800&color=6b7280&center=true&vCenter=true&multiline=false&width=600&height=50&lines=Full+Stack+Developer;AI%2FML+Engineer;Cloud+Architect;Tech+Innovator" alt="Role"/>
-</div>
-
-<br>
-
-<!-- Separador profesional -->
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Divider"/>
-</div>
+<!-- Separador con efecto -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=6" alt="Divider"/>
 
 <br>
 
