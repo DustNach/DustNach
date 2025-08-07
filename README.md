@@ -5,43 +5,29 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=120&section=header&text=%20&fontSize=24&fontColor=ffffff&animation=fadeIn" alt="Header"/>
 
 <br>
+<br>
 
-<!-- Banner principal ANIMADO con efectos visuales -->
+<!-- Banner profesional minimalista -->
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=48&duration=1000&pause=500&color=10b981&center=true&vCenter=true&multiline=false&width=400&height=70&lines=v31n73;DustNach" alt="Name"/>
+
+</div>
+
+<!-- Separador minimalista -->
 <div align="center">
-
-<!-- Efecto de typing animado para el nombre -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=48&duration=2000&pause=1000&color=10b981&center=true&vCenter=true&multiline=false&width=600&height=80&lines=v31n73;DustNach" alt="Animated Name" />
-
+<img src="https://capsule-render.vercel.app/api?type=rect&color=10b981&height=2" alt="Line"/>
 </div>
 
 <br>
 
-<!-- Banner ASCII ANIMADO con efectos de color y movimiento -->
+<!-- Rol profesional -->
 <div align="center">
-
-<!-- SVG Animado que simula ASCII con efectos espectaculares -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=v31n73&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=65" alt="Animated ASCII Banner"/>
-
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=24&duration=1200&pause=600&color=6b7280&center=true&vCenter=true&multiline=false&width=600&height=50&lines=Full+Stack+Developer;AI%2FML+%7C+Cloud+%7C+Big+Data" alt="Role"/>
 </div>
 
-<br>
-
-<!-- Banner ASCII con efectos de brillo alternativo -->
+<!-- Separador final -->
 <div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&weight=900&size=24&duration=3000&pause=500&color=10b981&center=true&vCenter=true&multiline=true&width=800&height=200&lines=%E2%96%88%E2%96%88%E2%95%97+++%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97++%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%95%97+++%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97;%E2%96%88%E2%96%88%E2%95%91+++%E2%96%88%E2%96%88%E2%95%91%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%95%91%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97++%E2%96%88%E2%96%88%E2%95%91%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%91%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%97;%E2%96%88%E2%96%88%E2%95%91+++%E2%96%88%E2%96%88%E2%95%91+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%94%E2%95%9D%E2%95%9A%E2%96%88%E2%96%88%E2%95%91%E2%96%88%E2%96%88%E2%95%94%E2%96%88%E2%96%88%E2%95%97+%E2%96%88%E2%96%88%E2%95%91++++%E2%96%88%E2%96%88%E2%95%94%E2%95%9D+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%94%E2%95%9D;%E2%95%9A%E2%96%88%E2%96%88%E2%95%97+%E2%96%88%E2%96%88%E2%95%94%E2%95%9D+%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%97+%E2%96%88%E2%96%88%E2%95%91%E2%96%88%E2%96%88%E2%95%91%E2%95%9A%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%95%91+++%E2%96%88%E2%96%88%E2%95%94%E2%95%9D++%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%97;%E2%95%9A%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%94%E2%95%9D+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%94%E2%95%9D+%E2%96%88%E2%96%88%E2%95%91%E2%96%88%E2%96%88%E2%95%91+%E2%95%9A%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%91+++%E2%96%88%E2%96%88%E2%95%91+++%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%94%E2%95%9D;%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%9D++%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%9D++%E2%95%9A%E2%95%90%E2%95%9D%E2%95%9A%E2%95%90%E2%95%9D++%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%9D+++%E2%95%9A%E2%95%90%E2%95%9D+++%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%9D" alt="Animated ASCII v31n73"/>
-
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Divider"/>
 </div>
-
-<br>
-
-<!-- Efecto visual con typing SVG centrado -->
-<div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=32&duration=3000&pause=1000&color=10b981&center=true&vCenter=true&multiline=true&width=700&height=120&lines=FULL+STACK+DEVELOPER;DIGITAL+CREATOR;TECH+INNOVATOR" alt="Typing SVG" />
-</div>
-
-<!-- Separador con efecto -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=6" alt="Divider"/>
 
 <br>
 
