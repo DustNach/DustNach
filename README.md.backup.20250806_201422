@@ -25,7 +25,7 @@
 
 <!-- Sección de título con emojis llamativos -->
 <h1>
-🎵 <strong>DESARROLLADOR FULL STACK</strong> 🎵<br>
+🎯 <strong>DESARROLLADOR FULL STACK</strong> 🎯<br>
 ✨ <strong>CREADOR DIGITAL</strong> ✨<br>
 🌙 <strong>INNOVADOR TECNOLÓGICO</strong> 🌙
 </h1>
@@ -39,7 +39,7 @@
 <table>
 <tr>
 <td align="center">
-<h2><em>🌙 'El código elegante es arte en su forma más pura'</em></h2>
+<h2><em>🌙 'La innovación nace donde la curiosidad encuentra la lógica'</em></h2>
 </td>
 </tr>
 </table>
@@ -48,57 +48,18 @@
 <table>
 <tr>
 <td align="center">
-<img src="https://img.shields.io/badge/JavaScript-Pro-9D4EDD.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/Web_Dev-Master-9D4EDD.svg?style=for-the-badge&logo=react&logoColor=white" alt="Web Dev"/>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/AI-Enthusiast-9D4EDD.svg?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI"/>
+<img src="https://img.shields.io/badge/JavaScript-Pro-9D4EDD.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>
 </td>
 </tr>
 </table>
 
 <!-- Estado actual destacado -->
 <h3>
-🎵 <strong>ESTADO ACTUAL:</strong> <em>Hora de crear y experimentar</em> 🎵
+🎯 <strong>ESTADO ACTUAL:</strong> <em>Hora de crear y experimentar</em> 🎯
 </h3>
-
-<!-- Sección de lenguajes de programación -->
-<h2>
-💻 <strong>LENGUAJES & TECNOLOGÍAS</strong> 💻
-</h2>
-
-<!-- Separador para lenguajes -->
-<p>
-🌙────────────────────────────────────────────🌙
-</p>
-
-<!-- Lenguajes principales en tabla -->
-<table>
-<tr>
-<td align="center"><img src="https://img.shields.io/badge/Python-9D4EDD?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></td>
-<td align="center"><img src="https://img.shields.io/badge/JavaScript-9D4EDD?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/></td>
-<td align="center"><img src="https://img.shields.io/badge/Java-9D4EDD?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/></td>
-</tr>
-<tr>
-<td align="center"><img src="https://img.shields.io/badge/C++-9D4EDD?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/></td>
-<td align="center"><img src="https://img.shields.io/badge/HTML5-9D4EDD?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/></td>
-<td align="center"><img src="https://img.shields.io/badge/CSS3-9D4EDD?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/></td>
-</tr>
-<tr>
-<td align="center"><img src="https://img.shields.io/badge/React-9D4EDD?style=for-the-badge&logo=react&logoColor=white" alt="React"/></td>
-<td align="center"><img src="https://img.shields.io/badge/Node.js-9D4EDD?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/></td>
-<td align="center"><img src="https://img.shields.io/badge/Git-9D4EDD?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></td>
-</tr>
-</table>
-
-<!-- Herramientas adicionales -->
-<p align="center">
-<img src="https://img.shields.io/badge/VS_Code-9D4EDD?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
-</p>
-
-<!-- Mensaje sobre lenguajes -->
-<h4>
-✨ <em>"Cada lenguaje es una nueva forma de pensar y crear"</em> ✨
-</h4>
 
 <!-- Sección de código destacada -->
 <table>
@@ -170,7 +131,7 @@ print(f"Power Level: {dev.power_level}")
 
 <!-- Timestamp destacado -->
 <h4 align="center">
-🕒 <strong>Última actualización:</strong> 2025-08-06 20:14:22 UTC
+🕒 <strong>Última actualización:</strong> 2025-08-06 20:03:21 UTC
 </h4>
 
 <!-- Mensaje final llamativo -->
@@ -180,7 +141,7 @@ print(f"Power Level: {dev.power_level}")
 
 <!-- Separador final -->
 <p align="center">
-🌙🎵✨────────────────────────────────────✨🎵🌙
+🌙🎯✨────────────────────────────────────✨🎯🌙
 </p>
 
 </div>

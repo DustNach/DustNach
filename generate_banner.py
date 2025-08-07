@@ -84,6 +84,21 @@ def generate_v31n73_banner():
     ]
     selected_badges = random.sample(skill_badges, 2)  # Seleccionar 2 badges aleatorios
     
+    # Lenguajes de programación con badges llamativos
+    color_hex = glow_color.replace('#', '')
+    programming_languages = [
+        f'<img src="https://img.shields.io/badge/Python-{color_hex}?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>',
+        f'<img src="https://img.shields.io/badge/JavaScript-{color_hex}?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>',
+        f'<img src="https://img.shields.io/badge/Java-{color_hex}?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>',
+        f'<img src="https://img.shields.io/badge/C++-{color_hex}?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>',
+        f'<img src="https://img.shields.io/badge/HTML5-{color_hex}?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>',
+        f'<img src="https://img.shields.io/badge/CSS3-{color_hex}?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>',
+        f'<img src="https://img.shields.io/badge/React-{color_hex}?style=for-the-badge&logo=react&logoColor=white" alt="React"/>',
+        f'<img src="https://img.shields.io/badge/Node.js-{color_hex}?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>',
+        f'<img src="https://img.shields.io/badge/Git-{color_hex}?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>',
+        f'<img src="https://img.shields.io/badge/VS_Code-{color_hex}?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>'
+    ]
+    
     # Citas inspiracionales ultra dinámicas
     quotes = [
         f"{theme_emoji} 'El código es poesía digital en movimiento'",
@@ -156,6 +171,45 @@ def generate_v31n73_banner():
 <h3>
 {random_emoji} <strong>ESTADO ACTUAL:</strong> <em>{status_text}</em> {random_emoji}
 </h3>
+
+<!-- Sección de lenguajes de programación -->
+<h2>
+💻 <strong>LENGUAJES & TECNOLOGÍAS</strong> 💻
+</h2>
+
+<!-- Separador para lenguajes -->
+<p>
+{theme_emoji}────────────────────────────────────────────{theme_emoji}
+</p>
+
+<!-- Lenguajes principales en tabla -->
+<table>
+<tr>
+<td align="center">{programming_languages[0]}</td>
+<td align="center">{programming_languages[1]}</td>
+<td align="center">{programming_languages[2]}</td>
+</tr>
+<tr>
+<td align="center">{programming_languages[3]}</td>
+<td align="center">{programming_languages[4]}</td>
+<td align="center">{programming_languages[5]}</td>
+</tr>
+<tr>
+<td align="center">{programming_languages[6]}</td>
+<td align="center">{programming_languages[7]}</td>
+<td align="center">{programming_languages[8]}</td>
+</tr>
+</table>
+
+<!-- Herramientas adicionales -->
+<p align="center">
+{programming_languages[9]}
+</p>
+
+<!-- Mensaje sobre lenguajes -->
+<h4>
+✨ <em>"Cada lenguaje es una nueva forma de pensar y crear"</em> ✨
+</h4>
 
 <!-- Sección de código destacada -->
 <table>
