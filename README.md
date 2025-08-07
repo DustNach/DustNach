@@ -6,27 +6,37 @@
 
 <br>
 
-<!-- Banner principal con diseño masculino perfectamente centrado -->
-<table align="center" width="100%">
-<tr>
-<td align="center">
+<!-- Banner principal ANIMADO con efectos visuales -->
+<div align="center">
+
+<!-- Efecto de typing animado para el nombre -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=48&duration=2000&pause=1000&color=10b981&center=true&vCenter=true&multiline=false&width=600&height=80&lines=v31n73;DustNach;DEVELOPER" alt="Animated Name" />
+
+</div>
+
+<br>
+
+<!-- Banner ASCII con efectos de brillo -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Top Border"/>
 
 ```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+🌟━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🌟
 ┃                                                                    ┃
-┃  🎯  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   🎯  ┃
+┃  ⚡  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   ⚡  ┃
 ┃     ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗     ┃
-┃     ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝     ┃
+┃  💫 ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝ 💫 ┃
 ┃     ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗     ┃
-┃      ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝      ┃
+┃  🔥  ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝  🔥 ┃
 ┃       ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝       ┃
 ┃                                                                    ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+🌟━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🌟
 ```
 
-</td>
-</tr>
-</table>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Bottom Border"/>
+
+</div>
 
 <br>
 
