@@ -237,30 +237,15 @@ def generate_v31n73_banner():
 
 <br>
 
-<!-- Lenguajes principales en tabla perfectamente alineada -->
-<table align="center" width="90%" cellpadding="15" cellspacing="0">
-<tr>
-<td align="center" width="33.33%">{programming_languages[0]}</td>
-<td align="center" width="33.33%">{programming_languages[1]}</td>
-<td align="center" width="33.33%">{programming_languages[2]}</td>
-</tr>
-<tr>
-<td align="center" width="33.33%">{programming_languages[3]}</td>
-<td align="center" width="33.33%">{programming_languages[4]}</td>
-<td align="center" width="33.33%">{programming_languages[5]}</td>
-</tr>
-<tr>
-<td align="center" width="33.33%">{programming_languages[6]}</td>
-<td align="center" width="33.33%">{programming_languages[7]}</td>
-<td align="center" width="33.33%">{programming_languages[8]}</td>
-</tr>
-</table>
+<!-- Lenguajes principales en una línea horizontal -->
+<div align="center">
+{programming_languages[0]} {programming_languages[1]} {programming_languages[2]} {programming_languages[3]} {programming_languages[4]}
+</div>
 
 <br>
 
-<!-- Herramientas adicionales centradas -->
 <div align="center">
-<h4>🛠️ <strong>HERRAMIENTAS:</strong> {programming_languages[9]}</h4>
+{programming_languages[5]} {programming_languages[6]} {programming_languages[7]} {programming_languages[8]} {programming_languages[9]}
 </div>
 
 <!-- Mensaje sobre lenguajes -->

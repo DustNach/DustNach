@@ -15,14 +15,14 @@
 
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                                                                    ┃
-┃  🎯  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   🎯  ┃
-┃     ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗     ┃
-┃     ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝     ┃
-┃     ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗     ┃
-┃      ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝      ┃
-┃       ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝       ┃
-┃                                                                    ┃
+┃                                                                      ┃
+┃  🎯  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   🎯            ┃
+┃     ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗                  ┃
+┃     ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝                  ┃
+┃     ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗                  ┃
+┃      ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝                 ┃
+┃       ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝                  ┃
+┃                                                                      ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
@@ -82,7 +82,7 @@
 <table align="center">
 <tr>
 <td align="center">
-<h3><em>🎯 'Programar es esculpir el futuro con lógica'</em></h3>
+<h3><em>🎯 'El futuro se construye una línea de código a la vez'</em></h3>
 </td>
 </tr>
 </table>
@@ -94,14 +94,14 @@
 <img src="https://img.shields.io/badge/Web_Dev-Master-10b981.svg?style=for-the-badge&logo=react&logoColor=white" alt="Web Dev"/>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/JavaScript-Pro-10b981.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/Python-Expert-10b981.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 </td>
 </tr>
 </table>
 
 <!-- Estado actual destacado -->
 <h3>
-🌌 <strong>ESTADO ACTUAL:</strong> <em>Hora de crear y experimentar</em> 🌌
+🌟 <strong>ESTADO ACTUAL:</strong> <em>Hora de crear y experimentar</em> 🌟
 </h3>
 
 <br>
@@ -118,15 +118,30 @@
 
 <br>
 
-<!-- Lenguajes principales en una línea horizontal -->
-<div align="center">
-<img src="https://img.shields.io/badge/Python-10b981?style=for-the-badge&logo=python&logoColor=white" alt="Python"/> <img src="https://img.shields.io/badge/JavaScript-10b981?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/> <img src="https://img.shields.io/badge/Java-10b981?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/> <img src="https://img.shields.io/badge/C++-10b981?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/> <img src="https://img.shields.io/badge/HTML5-10b981?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-</div>
+<!-- Lenguajes principales en tabla perfectamente alineada -->
+<table align="center" width="90%" cellpadding="15" cellspacing="0">
+<tr>
+<td align="center" width="33.33%"><img src="https://img.shields.io/badge/Python-10b981?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></td>
+<td align="center" width="33.33%"><img src="https://img.shields.io/badge/JavaScript-10b981?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/></td>
+<td align="center" width="33.33%"><img src="https://img.shields.io/badge/Java-10b981?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/></td>
+</tr>
+<tr>
+<td align="center" width="33.33%"><img src="https://img.shields.io/badge/C++-10b981?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/></td>
+<td align="center" width="33.33%"><img src="https://img.shields.io/badge/HTML5-10b981?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/></td>
+<td align="center" width="33.33%"><img src="https://img.shields.io/badge/CSS3-10b981?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/></td>
+</tr>
+<tr>
+<td align="center" width="33.33%"><img src="https://img.shields.io/badge/React-10b981?style=for-the-badge&logo=react&logoColor=white" alt="React"/></td>
+<td align="center" width="33.33%"><img src="https://img.shields.io/badge/Node.js-10b981?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/></td>
+<td align="center" width="33.33%"><img src="https://img.shields.io/badge/Git-10b981?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></td>
+</tr>
+</table>
 
 <br>
 
+<!-- Herramientas adicionales centradas -->
 <div align="center">
-<img src="https://img.shields.io/badge/CSS3-10b981?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/> <img src="https://img.shields.io/badge/React-10b981?style=for-the-badge&logo=react&logoColor=white" alt="React"/> <img src="https://img.shields.io/badge/Node.js-10b981?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/> <img src="https://img.shields.io/badge/Git-10b981?style=for-the-badge&logo=git&logoColor=white" alt="Git"/> <img src="https://img.shields.io/badge/VS_Code-10b981?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+<h4>🛠️ <strong>HERRAMIENTAS:</strong> <img src="https://img.shields.io/badge/VS_Code-10b981?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/></h4>
 </div>
 
 <!-- Mensaje sobre lenguajes -->
@@ -206,7 +221,7 @@ print(f"Power Level: {dev.power_level}")
 
 <!-- Timestamp con estilo centrado -->
 <div align="center">
-    <img src="https://img.shields.io/badge/LAST%20UPDATE-2025-08-06%2020%3A39%3A36%20UTC-10b981?style=for-the-badge&logo=clockify&logoColor=white" alt="Last Update"/>
+    <img src="https://img.shields.io/badge/LAST%20UPDATE-2025-08-06%2020%3A30%3A38%20UTC-10b981?style=for-the-badge&logo=clockify&logoColor=white" alt="Last Update"/>
 </div>
 
 <br>
@@ -217,7 +232,7 @@ print(f"Power Level: {dev.power_level}")
 
 <!-- Separador final -->
 <p align="center">
-🎯🌌🎧────────────────────────────────────🎧🌌🎯
+🎯🌟🎪────────────────────────────────────🎪🌟🎯
 </p>
 
 </div>
