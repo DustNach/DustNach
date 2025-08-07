@@ -48,25 +48,29 @@ def generate_v31n73_banner():
         theme_emoji = "⚡"  # Rayo
         theme_name = "STEALTH"
     
-    # Banner masculino con efectos visuales
+    # Banner masculino perfectamente organizado
     ascii_art = f"""<div align="center">
 
 <!-- Header con tema dinámico -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color={accent_color.replace('#', '')}&height=100&section=header&text=MODE:%20{theme_name}&fontSize=20&fontColor=ffffff&animation=fadeIn" alt="Header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color={accent_color.replace('#', '')}&height=120&section=header&text=MODE:%20{theme_name}&fontSize=24&fontColor=ffffff&animation=fadeIn" alt="Header"/>
 
-<!-- Banner principal con diseño masculino -->
-<table>
+<br>
+
+<!-- Banner principal con diseño masculino perfectamente centrado -->
+<table align="center" width="100%">
 <tr>
 <td align="center">
 
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃                                                                    ┃
 ┃  {theme_emoji}  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   {theme_emoji}  ┃
 ┃     ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗     ┃
 ┃     ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝     ┃
 ┃     ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗     ┃
 ┃      ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝      ┃
 ┃       ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝       ┃
+┃                                                                    ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
@@ -74,8 +78,12 @@ def generate_v31n73_banner():
 </tr>
 </table>
 
-<!-- Efecto visual con typing SVG -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=28&duration=3000&pause=1000&color={accent_color.replace('#', '')}&center=true&vCenter=true&multiline=true&width=600&height=100&lines=FULL+STACK+DEVELOPER;DIGITAL+CREATOR;TECH+INNOVATOR" alt="Typing SVG" />"""
+<br>
+
+<!-- Efecto visual con typing SVG centrado -->
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=32&duration=3000&pause=1000&color={accent_color.replace('#', '')}&center=true&vCenter=true&multiline=true&width=700&height=120&lines=FULL+STACK+DEVELOPER;DIGITAL+CREATOR;TECH+INNOVATOR" alt="Typing SVG" />
+</div>"""
     
     # Obtener fecha y hora actual
     now = datetime.datetime.now()
@@ -149,30 +157,42 @@ def generate_v31n73_banner():
 {ascii_art}
 
 <!-- Separador con efecto -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Divider"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=6" alt="Divider"/>
 
-<!-- Panel de estado profesional -->
-<table align="center">
+<br>
+
+<!-- Panel de estado profesional perfectamente alineado -->
+<table align="center" width="90%" cellpadding="10" cellspacing="0">
 <tr>
-<td align="center" width="33%">
+<td align="center" width="33.33%">
     <img src="https://img.shields.io/badge/STATUS-{status_text.replace(' ', '%20')}-{accent_color.replace('#', '')}?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status"/>
 </td>
-<td align="center" width="33%">
+<td align="center" width="33.33%">
     <img src="https://img.shields.io/badge/MODE-{theme_name}-{primary_color.replace('#', '')}?style=for-the-badge&logo=atom&logoColor=white" alt="Mode"/>
 </td>
-<td align="center" width="33%">
+<td align="center" width="33.33%">
     <img src="https://img.shields.io/badge/LEVEL-EXPERT-{accent_color.replace('#', '')}?style=for-the-badge&logo=starship&logoColor=white" alt="Level"/>
 </td>
 </tr>
 </table>
 
-<!-- Estadísticas principales -->
-<div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=DustNach&show_icons=true&theme=dark&bg_color={primary_color.replace('#', '')}&title_color={accent_color.replace('#', '')}&icon_color={accent_color.replace('#', '')}&text_color=ffffff&border_color={secondary_color.replace('#', '')}" alt="GitHub Stats" height="165"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DustNach&layout=compact&theme=dark&bg_color={primary_color.replace('#', '')}&title_color={accent_color.replace('#', '')}&text_color=ffffff&border_color={secondary_color.replace('#', '')}" alt="Top Languages" height="165"/>
-</div>
+<br>
 
-<!-- Contador de visitas con estilo -->
+<!-- Estadísticas principales perfectamente centradas -->
+<table align="center" width="100%" cellpadding="10" cellspacing="0">
+<tr>
+<td align="center" width="50%">
+    <img src="https://github-readme-stats.vercel.app/api?username=DustNach&show_icons=true&theme=dark&bg_color={primary_color.replace('#', '')}&title_color={accent_color.replace('#', '')}&icon_color={accent_color.replace('#', '')}&text_color=ffffff&border_color={secondary_color.replace('#', '')}" alt="GitHub Stats" height="180" width="400"/>
+</td>
+<td align="center" width="50%">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DustNach&layout=compact&theme=dark&bg_color={primary_color.replace('#', '')}&title_color={accent_color.replace('#', '')}&text_color=ffffff&border_color={secondary_color.replace('#', '')}" alt="Top Languages" height="180" width="400"/>
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- Contador de visitas centrado -->
 <div align="center">
     <img src="https://komarev.com/ghpvc/?username=DustNach&label=PROFILE%20VIEWS&color={accent_color.replace('#', '')}&style=for-the-badge" alt="Profile views" />
 </div>
@@ -203,47 +223,60 @@ def generate_v31n73_banner():
 {random_emoji} <strong>ESTADO ACTUAL:</strong> <em>{status_text}</em> {random_emoji}
 </h3>
 
-<!-- Sección de lenguajes de programación -->
-<h2>
-💻 <strong>LENGUAJES & TECNOLOGÍAS</strong> 💻
-</h2>
+<br>
 
-<!-- Separador para lenguajes -->
-<p>
-{theme_emoji}────────────────────────────────────────────{theme_emoji}
-</p>
+<!-- Separador con efecto para lenguajes -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=6" alt="Divider"/>
 
-<!-- Lenguajes principales en tabla -->
-<table>
+<br>
+
+<!-- Sección de lenguajes perfectamente organizada -->
+<div align="center">
+<h2>💻 <strong>LENGUAJES & TECNOLOGÍAS</strong> 💻</h2>
+</div>
+
+<br>
+
+<!-- Lenguajes principales en tabla perfectamente alineada -->
+<table align="center" width="90%" cellpadding="15" cellspacing="0">
 <tr>
-<td align="center">{programming_languages[0]}</td>
-<td align="center">{programming_languages[1]}</td>
-<td align="center">{programming_languages[2]}</td>
+<td align="center" width="33.33%">{programming_languages[0]}</td>
+<td align="center" width="33.33%">{programming_languages[1]}</td>
+<td align="center" width="33.33%">{programming_languages[2]}</td>
 </tr>
 <tr>
-<td align="center">{programming_languages[3]}</td>
-<td align="center">{programming_languages[4]}</td>
-<td align="center">{programming_languages[5]}</td>
+<td align="center" width="33.33%">{programming_languages[3]}</td>
+<td align="center" width="33.33%">{programming_languages[4]}</td>
+<td align="center" width="33.33%">{programming_languages[5]}</td>
 </tr>
 <tr>
-<td align="center">{programming_languages[6]}</td>
-<td align="center">{programming_languages[7]}</td>
-<td align="center">{programming_languages[8]}</td>
+<td align="center" width="33.33%">{programming_languages[6]}</td>
+<td align="center" width="33.33%">{programming_languages[7]}</td>
+<td align="center" width="33.33%">{programming_languages[8]}</td>
 </tr>
 </table>
 
-<!-- Herramientas adicionales -->
-<p align="center">
-{programming_languages[9]}
-</p>
+<br>
+
+<!-- Herramientas adicionales centradas -->
+<div align="center">
+<h4>🛠️ <strong>HERRAMIENTAS:</strong> {programming_languages[9]}</h4>
+</div>
 
 <!-- Mensaje sobre lenguajes -->
 <h4>
 ✨ <em>"Cada lenguaje es una nueva forma de pensar y crear"</em> ✨
 </h4>
 
-<!-- Sección de código destacada -->
-<table>
+<br>
+
+<!-- Separador con efecto para código -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=6" alt="Divider"/>
+
+<br>
+
+<!-- Sección de código perfectamente centrada -->
+<table align="center" width="95%" cellpadding="20" cellspacing="0">
 <tr>
 <td align="center">
 
@@ -298,16 +331,22 @@ print(f"Power Level: {{dev.power_level}}")
 </tr>
 </table>
 
-<!-- Footer masculino con efectos visuales -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Divider"/>
+<br>
 
-<!-- Timestamp con estilo -->
+<!-- Footer masculino con efectos visuales -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=8" alt="Divider"/>
+
+<br>
+
+<!-- Timestamp con estilo centrado -->
 <div align="center">
     <img src="https://img.shields.io/badge/LAST%20UPDATE-{timestamp.replace(' ', '%20').replace(':', '%3A')}-{accent_color.replace('#', '')}?style=for-the-badge&logo=clockify&logoColor=white" alt="Last Update"/>
 </div>
 
+<br>
+
 <!-- Footer con wave effect -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color={accent_color.replace('#', '')}&height=100&section=footer&text=THANKS%20FOR%20VISITING&fontSize=20&fontColor=ffffff&animation=fadeIn" alt="Footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color={accent_color.replace('#', '')}&height=120&section=footer&text=THANKS%20FOR%20VISITING&fontSize=24&fontColor=ffffff&animation=fadeIn" alt="Footer"/>
 </h2>
 
 <!-- Separador final -->
