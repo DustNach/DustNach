@@ -2,7 +2,7 @@
 <div align="center">
 
 <!-- Header con tema dinámico -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=120&section=header&text=MODE:%20ELITE&fontSize=24&fontColor=ffffff&animation=fadeIn" alt="Header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=120&section=header&text=%20&fontSize=24&fontColor=ffffff&animation=fadeIn" alt="Header"/>
 
 <br>
 
