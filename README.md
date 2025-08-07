@@ -10,31 +10,26 @@
 <div align="center">
 
 <!-- Efecto de typing animado para el nombre -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=48&duration=2000&pause=1000&color=10b981&center=true&vCenter=true&multiline=false&width=600&height=80&lines=v31n73;DustNach;DEVELOPER" alt="Animated Name" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=48&duration=2000&pause=1000&color=10b981&center=true&vCenter=true&multiline=false&width=600&height=80&lines=v31n73;DustNach" alt="Animated Name" />
 
 </div>
 
 <br>
 
-<!-- Banner ASCII con efectos de brillo -->
+<!-- Banner ASCII ANIMADO con efectos de color y movimiento -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Top Border"/>
+<!-- SVG Animado que simula ASCII con efectos espectaculares -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=v31n73&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=65" alt="Animated ASCII Banner"/>
 
-```
-🌟━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🌟
-┃                                                                    ┃
-┃  ⚡  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   ⚡  ┃
-┃     ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗     ┃
-┃  💫 ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝ 💫 ┃
-┃     ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗     ┃
-┃  🔥  ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝  🔥 ┃
-┃       ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝       ┃
-┃                                                                    ┃
-🌟━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🌟
-```
+</div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Bottom Border"/>
+<br>
+
+<!-- Banner ASCII con efectos de brillo alternativo -->
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&weight=900&size=24&duration=3000&pause=500&color=10b981&center=true&vCenter=true&multiline=true&width=800&height=200&lines=%E2%96%88%E2%96%88%E2%95%97+++%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97++%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%95%97+++%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97;%E2%96%88%E2%96%88%E2%95%91+++%E2%96%88%E2%96%88%E2%95%91%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%95%91%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97++%E2%96%88%E2%96%88%E2%95%91%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%91%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%97;%E2%96%88%E2%96%88%E2%95%91+++%E2%96%88%E2%96%88%E2%95%91+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%94%E2%95%9D%E2%95%9A%E2%96%88%E2%96%88%E2%95%91%E2%96%88%E2%96%88%E2%95%94%E2%96%88%E2%96%88%E2%95%97+%E2%96%88%E2%96%88%E2%95%91++++%E2%96%88%E2%96%88%E2%95%94%E2%95%9D+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%94%E2%95%9D;%E2%95%9A%E2%96%88%E2%96%88%E2%95%97+%E2%96%88%E2%96%88%E2%95%94%E2%95%9D+%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%97+%E2%96%88%E2%96%88%E2%95%91%E2%96%88%E2%96%88%E2%95%91%E2%95%9A%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%95%91+++%E2%96%88%E2%96%88%E2%95%94%E2%95%9D++%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%97;%E2%95%9A%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%94%E2%95%9D+%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%94%E2%95%9D+%E2%96%88%E2%96%88%E2%95%91%E2%96%88%E2%96%88%E2%95%91+%E2%95%9A%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%91+++%E2%96%88%E2%96%88%E2%95%91+++%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%94%E2%95%9D;%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%9D++%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%9D++%E2%95%9A%E2%95%90%E2%95%9D%E2%95%9A%E2%95%90%E2%95%9D++%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%9D+++%E2%95%9A%E2%95%90%E2%95%9D+++%E2%95%9A%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%9D" alt="Animated ASCII v31n73"/>
 
 </div>
 
