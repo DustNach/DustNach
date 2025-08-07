@@ -19,9 +19,8 @@ jobs:
     - name: 📥 Checkout repository
       uses: actions/checkout@v4
       with:
-        # Use PERSONAL_ACCESS_TOKEN if available (for private repos), otherwise fallback to GITHUB_TOKEN
-        # PERSONAL_ACCESS_TOKEN should be set in repository secrets if needed
-        token: ${{ secrets.PERSONAL_ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
+        # Using GITHUB_TOKEN (automatic, no configuration needed)
+        token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0
         persist-credentials: true
     
