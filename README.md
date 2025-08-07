@@ -47,10 +47,10 @@
     <img src="https://img.shields.io/badge/STATUS-Hora%20de%20crear%20y%20experimentar-10b981?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status"/>
 </td>
 <td align="center" width="33.33%">
-    <img src="https://img.shields.io/badge/MODE-ELITE-111827?style=for-the-badge&logo=atom&logoColor=white" alt="Mode"/>
+    <img src="https://img.shields.io/badge/MODE-APERRAO-111827?style=for-the-badge&logo=atom&logoColor=white" alt="Mode"/>
 </td>
 <td align="center" width="33.33%">
-    <img src="https://img.shields.io/badge/LEVEL-EXPERT-10b981?style=for-the-badge&logo=starship&logoColor=white" alt="Level"/>
+    <img src="https://img.shields.io/badge/LEVEL-GOOD-10b981?style=for-the-badge&logo=starship&logoColor=white" alt="Level"/>
 </td>
 </tr>
 </table>
@@ -82,8 +82,8 @@
 
 <!-- Badges dinámicos centrados -->
 <div align="center">
-<img src="https://img.shields.io/badge/Web_Dev-Master-10b981.svg?style=for-the-badge&logo=react&logoColor=white" alt="Web Dev"/> 
-<img src="https://img.shields.io/badge/JavaScript-Pro-10b981.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/Web_Dev--10b981.svg?style=for-the-badge&logo=react&logoColor=white" alt="Web Dev"/> 
+<img src="https://img.shields.io/badge/JavaScript--10b981.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>
 </div>
 
 <!-- Estado actual destacado -->
@@ -105,7 +105,7 @@
 
 <br>
 
-<!-- Stack Principal -->
+<!-- Lenguajes de Programación -->
 <div align="center">
 <img src="https://img.shields.io/badge/Python-10b981?style=for-the-badge&logo=python&logoColor=white" alt="Python"/> 
 <img src="https://img.shields.io/badge/JavaScript-10b981?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/> 
@@ -116,46 +116,68 @@
 
 <br>
 
-<!-- Frameworks & Libraries -->
+<!-- Frameworks & Backend -->
 <div align="center">
 <img src="https://img.shields.io/badge/Django-10b981?style=for-the-badge&logo=django&logoColor=white" alt="Django"/> 
 <img src="https://img.shields.io/badge/Django_REST-10b981?style=for-the-badge&logo=django&logoColor=white" alt="Django REST"/> 
 <img src="https://img.shields.io/badge/React-10b981?style=for-the-badge&logo=react&logoColor=white" alt="React"/> 
-<img src="https://img.shields.io/badge/PySide6-10b981?style=for-the-badge&logo=qt&logoColor=white" alt="PySide6"/> 
-<img src="https://img.shields.io/badge/Bootstrap-10b981?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+<img src="https://img.shields.io/badge/REST_APIs-10b981?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs"/> 
+<img src="https://img.shields.io/badge/PySide6-10b981?style=for-the-badge&logo=qt&logoColor=white" alt="PySide6"/>
 </div>
 
 <br>
 
-<!-- Databases & Cloud -->
+<!-- Bases de Datos -->
 <div align="center">
 <img src="https://img.shields.io/badge/PostgreSQL-10b981?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/> 
 <img src="https://img.shields.io/badge/SQLite-10b981?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/> 
 <img src="https://img.shields.io/badge/Redis-10b981?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/> 
-<img src="https://img.shields.io/badge/Azure-10b981?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"/> 
-<img src="https://img.shields.io/badge/Docker-10b981?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/ETL-10b981?style=for-the-badge&logo=databricks&logoColor=white" alt="ETL"/> 
+<img src="https://img.shields.io/badge/Big_Data-10b981?style=for-the-badge&logo=apache&logoColor=white" alt="Big Data"/>
 </div>
 
 <br>
 
-<!-- DevOps & Tools -->
+<!-- IA / ML / Data Science -->
 <div align="center">
-<img src="https://img.shields.io/badge/Git-10b981?style=for-the-badge&logo=git&logoColor=white" alt="Git"/> 
-<img src="https://img.shields.io/badge/GitHub_Actions-10b981?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/> 
-<img src="https://img.shields.io/badge/Apache_Kafka-10b981?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Apache Kafka"/> 
-<img src="https://img.shields.io/badge/Linux-10b981?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/> 
-<img src="https://img.shields.io/badge/Kali_Linux-10b981?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
-</div>
-
-<br>
-
-<!-- AI & Security -->
-<div align="center">
+<img src="https://img.shields.io/badge/OpenAI_GPT-10b981?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI GPT"/> 
 <img src="https://img.shields.io/badge/Machine_Learning-10b981?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Machine Learning"/> 
-<img src="https://img.shields.io/badge/OpenAI_API-10b981?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API"/> 
-<img src="https://img.shields.io/badge/JWT-10b981?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/> 
-<img src="https://img.shields.io/badge/Nmap-10b981?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/> 
-<img src="https://img.shields.io/badge/VNC-10b981?style=for-the-badge&logo=vnc&logoColor=white" alt="VNC"/>
+<img src="https://img.shields.io/badge/pandas-10b981?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas"/> 
+<img src="https://img.shields.io/badge/scikit--learn-10b981?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/> 
+<img src="https://img.shields.io/badge/CRISP--DM-10b981?style=for-the-badge&logo=databricks&logoColor=white" alt="CRISP-DM"/>
+</div>
+
+<br>
+
+<!-- Cloud Computing -->
+<div align="center">
+<img src="https://img.shields.io/badge/AWS-10b981?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS"/> 
+<img src="https://img.shields.io/badge/EC2-10b981?style=for-the-badge&logo=amazonec2&logoColor=white" alt="EC2"/> 
+<img src="https://img.shields.io/badge/S3-10b981?style=for-the-badge&logo=amazons3&logoColor=white" alt="S3"/> 
+<img src="https://img.shields.io/badge/RDS-10b981?style=for-the-badge&logo=amazonrds&logoColor=white" alt="RDS"/> 
+<img src="https://img.shields.io/badge/Azure-10b981?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"/>
+</div>
+
+<br>
+
+<!-- DevOps & CI/CD -->
+<div align="center">
+<img src="https://img.shields.io/badge/Docker-10b981?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/> 
+<img src="https://img.shields.io/badge/GitHub_Actions-10b981?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/> 
+<img src="https://img.shields.io/badge/Git-10b981?style=for-the-badge&logo=git&logoColor=white" alt="Git"/> 
+<img src="https://img.shields.io/badge/Apache_Kafka-10b981?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Apache Kafka"/> 
+<img src="https://img.shields.io/badge/Microservices-10b981?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Microservices"/>
+</div>
+
+<br>
+
+<!-- Sistemas & Redes -->
+<div align="center">
+<img src="https://img.shields.io/badge/Linux_CLI-10b981?style=for-the-badge&logo=linux&logoColor=white" alt="Linux CLI"/> 
+<img src="https://img.shields.io/badge/Kali_Linux-10b981?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/> 
+<img src="https://img.shields.io/badge/VNC-10b981?style=for-the-badge&logo=vnc&logoColor=white" alt="VNC"/> 
+<img src="https://img.shields.io/badge/WSL2-10b981?style=for-the-badge&logo=windows&logoColor=white" alt="WSL2"/> 
+<img src="https://img.shields.io/badge/Nmap-10b981?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/>
 </div>
 
 <!-- Mensaje sobre lenguajes -->
@@ -329,10 +351,14 @@ class DustNach:
         self.username = "DustNach" 
         self.role = "Full Stack Developer & Tech Innovator 🚀"
         self.languages = ["Python", "JavaScript", "HTML/CSS", "SQL"]
-        self.frameworks = ["Django", "React", "PySide6", "Bootstrap"]
+        self.frameworks = ["Django", "Django REST Framework", "React"]
         self.databases = ["PostgreSQL", "SQLite", "Redis"]
-        self.cloud_tools = ["Azure", "Docker", "Apache Kafka"]
-        self.specialties = ["AI Integration 🤖", "Web Development 🌐", "Desktop Apps 🖥️", "DevOps ⚙️"]
+        self.ai_ml_stack = ["OpenAI GPT", "pandas", "scikit-learn", "CRISP-DM"]
+        self.big_data = ["ETL", "Big Data Processing", "Data Analysis"]
+        self.cloud_platforms = ["AWS (EC2, S3, RDS)", "Azure"]
+        self.devops_tools = ["Docker", "GitHub Actions", "Apache Kafka"]
+        self.systems_networks = ["Linux CLI", "Kali Linux", "VNC", "WSL2"]
+        self.specialties = ["AI/ML Integration 🤖", "Big Data 📊", "Cloud Computing ☁️", "Full Stack Development 🌐"]
         self.current_focus = "Desarrollando soluciones empresariales innovadoras ✨"
         self.status = "🔥 Construyendo el futuro digital"
         self.experience_level = "En constante crecimiento 🌱"
@@ -359,11 +385,12 @@ class DustNach:
         return {
             "Backend": "Python + Django + Django REST Framework",
             "Frontend": "React + HTML5 + CSS3 + JavaScript",
-            "Database": "PostgreSQL + SQLite + Redis",
-            "Cloud": "Azure + Docker + Apache Kafka",
-            "Desktop": "PySide6 + Qt Framework",
-            "DevOps": "Git + GitHub Actions + Linux",
-            "AI/ML": "OpenAI API + Machine Learning Integration"
+            "Databases": "PostgreSQL + SQLite + Redis + ETL",
+            "AI/ML": "OpenAI GPT + pandas + scikit-learn + CRISP-DM",
+            "Big Data": "ETL + Data Processing + Analytics",
+            "Cloud": "AWS (EC2, S3, RDS) + Azure",
+            "DevOps": "Docker + GitHub Actions + Apache Kafka",
+            "Systems": "Linux CLI + Kali Linux + VNC + WSL2"
         }
     
     def coding_philosophy(self):
