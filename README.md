@@ -238,6 +238,79 @@
 
 <br>
 
+<!-- Separador para sección de humildad -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=6" alt="Divider"/>
+
+<br>
+
+<!-- Sección de mentalidad y humildad -->
+<div align="center">
+<h2>🌱 <strong>MENTALIDAD DE CRECIMIENTO</strong> 🌱</h2>
+</div>
+
+<br>
+
+<!-- Tabla de mentalidad profesional -->
+<table align="center" width="90%" cellpadding="20" cellspacing="0">
+<tr>
+<td align="center" width="50%">
+
+### 📚 Siempre Aprendiendo
+*"Cada día es una oportunidad para aprender algo nuevo.  
+No importa cuánto sepas, siempre hay más por descubrir."*
+
+🌱 Mentalidad de principiante  
+📚 Curioso por naturaleza  
+🤝 Abierto a feedback  
+
+</td>
+<td align="center" width="50%">
+
+### 🤝 Colaboración sobre Ego
+*"Los mejores proyectos nacen del trabajo en equipo.  
+Prefiero aprender de otros que pretender saberlo todo."*
+
+🗣️ Escucho más de lo que hablo  
+🎯 Enfocado en soluciones  
+💬 Comunicación clara y honesta  
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+### ⚡ Errores = Aprendizaje
+*"Cada bug es un maestro disfrazado.  
+Cada error me acerca más a la solución correcta."*
+
+🔍 Debugging con paciencia  
+📝 Documentando lecciones  
+🔄 Iteración constante  
+
+</td>
+<td align="center" width="50%">
+
+### 🌍 Impacto sobre Reconocimiento
+*"El mejor código es el que resuelve problemas reales.  
+Prefiero crear valor que buscar aplausos."*
+
+🎯 Enfoque en el usuario final  
+🛠️ Soluciones prácticas  
+🌱 Crecimiento sostenible  
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- Mensaje de humildad -->
+<div align="center">
+<h4>🙏 <em>"La verdadera maestría comienza cuando admites que aún tienes mucho por aprender"</em> 🙏</h4>
+</div>
+
+<br>
+
 <!-- Separador con efecto para código -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=6" alt="Divider"/>
 
@@ -262,7 +335,9 @@ class DustNach:
         self.specialties = ["AI Integration 🤖", "Web Development 🌐", "Desktop Apps 🖥️", "DevOps ⚙️"]
         self.current_focus = "Desarrollando soluciones empresariales innovadoras ✨"
         self.status = "🔥 Construyendo el futuro digital"
-        self.experience_level = "Avanzado 🏆"
+        self.experience_level = "En constante crecimiento 🌱"
+        self.learning_mindset = "Siempre hay algo nuevo por descubrir 📚"
+        self.collaboration_style = "Escuchar, aprender, contribuir 🤝"
     
     def say_hello(self):
         return "¡Hola! Bienvenido a mi portafolio profesional 🌌👋"
@@ -293,6 +368,16 @@ class DustNach:
     
     def coding_philosophy(self):
         return "🎯 Código limpio, arquitectura sólida, innovación constante"
+    
+    def growth_mindset(self):
+        principles = [
+            "🌱 Cada día aprendo algo nuevo",
+            "🙏 Los errores son maestros disfrazados",
+            "🤝 Prefiero colaborar que competir",
+            "📚 La humildad abre puertas al conocimiento"
+        ]
+        import random
+        return random.choice(principles)
 
 # ✨ INSTANCIA DEL DESARROLLADOR ✨
 dev = DustNach()
@@ -300,6 +385,7 @@ print(dev.say_hello())
 print(f"Proyecto actual: {dev.get_current_project()}")
 print(f"Tech Stack: {dev.get_tech_stack()['Backend']}")
 print(f"Filosofía: {dev.coding_philosophy()}")
+print(f"Mentalidad: {dev.growth_mindset()}")
 print(f"Nivel: {dev.experience_level}")
 ```
 
@@ -332,5 +418,5 @@ print(f"Nivel: {dev.experience_level}")
 </div>
 <!-- BANNER_END -->
 
-# DustNach
+
 
