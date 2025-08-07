@@ -40,52 +40,28 @@ def generate_v31n73_banner():
         glow_color = "#4C1D95"
         theme_emoji = "🌌"
     
-    # ASCII art mejorado con efectos visuales
+    # Banner ultra llamativo compatible con GitHub
     ascii_art = f"""<div align="center">
 
-<!-- Efectos CSS para animaciones -->
-<style>
-@keyframes glow {{
-  0%, 100% {{ text-shadow: 0 0 5px {glow_color}, 0 0 10px {glow_color}, 0 0 15px {glow_color}; }}
-  50% {{ text-shadow: 0 0 10px {glow_color}, 0 0 20px {glow_color}, 0 0 30px {glow_color}; }}
-}}
-@keyframes float {{
-  0%, 100% {{ transform: translateY(0px); }}
-  50% {{ transform: translateY(-10px); }}
-}}
-@keyframes pulse {{
-  0%, 100% {{ opacity: 1; }}
-  50% {{ opacity: 0.7; }}
-}}
-.glow-text {{
-  animation: glow 2s ease-in-out infinite;
-  color: {glow_color};
-  font-weight: bold;
-}}
-.float-animation {{
-  animation: float 3s ease-in-out infinite;
-}}
-.pulse-animation {{
-  animation: pulse 2s ease-in-out infinite;
-}}
-</style>
+<!-- Banner principal con diseño llamativo -->
+<table>
+<tr>
+<td align="center">
 
-<!-- Banner principal con gradiente -->
-<div class="float-animation" style="background: linear-gradient(45deg, #1a1a2e, #16213e, #0f3460); padding: 20px; border-radius: 15px; border: 2px solid {glow_color}; box-shadow: 0 0 20px {glow_color}40;">
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│  {theme_emoji}  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   {theme_emoji}  │
+│     ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗     │
+│     ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝     │
+│     ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗     │
+│      ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝      │
+│       ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝       │
+└──────────────────────────────────────────────────────────────────────┘
+```
 
-<pre class="glow-text" style="font-size: 16px; line-height: 1.2;">
-██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗ 
-██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗
-██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝
-╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗
- ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝
-  ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝ 
-</pre>
-
-<!-- Línea decorativa animada -->
-<div style="height: 3px; background: linear-gradient(90deg, transparent, {glow_color}, transparent); margin: 15px 0; border-radius: 2px; animation: pulse 1.5s ease-in-out infinite;"></div>
-
-</div>"""
+</td>
+</tr>
+</table>"""
     
     # Obtener fecha y hora actual
     now = datetime.datetime.now()
@@ -138,38 +114,59 @@ def generate_v31n73_banner():
         status_emoji = "🌙"
         status_text = "Programando bajo las estrellas"
     
-    # Construir el banner ultra llamativo
+    # Construir el banner ultra llamativo compatible con GitHub
     banner = f"""<div align="center">
 
 {ascii_art}
 
-<!-- Título principal con efectos -->
-<h2 class="pulse-animation" style="background: linear-gradient(45deg, {glow_color}, #FF6B6B, #4ECDC4, #45B7D1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 24px; font-weight: bold; margin: 20px 0;">
-{random_emoji} Desarrollador Full Stack | {extra_emoji} Creador Digital | {theme_emoji} Innovador
-</h2>
+<!-- Sección de título con emojis llamativos -->
+<h1>
+{random_emoji} <strong>DESARROLLADOR FULL STACK</strong> {random_emoji}<br>
+{extra_emoji} <strong>CREADOR DIGITAL</strong> {extra_emoji}<br>
+{theme_emoji} <strong>INNOVADOR TECNOLÓGICO</strong> {theme_emoji}
+</h1>
 
-<!-- Cita inspiracional con estilo -->
-<div style="background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); backdrop-filter: blur(10px); border-radius: 10px; padding: 15px; margin: 20px 0; border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
-<h3 style="color: {glow_color}; margin: 0; font-style: italic;">{random_quote}</h3>
-</div>
+<!-- Separador visual -->
+<p>
+{theme_emoji}────────────────────────────────────────────{theme_emoji}
+</p>
 
-<!-- Badges dinámicos -->
-<div style="margin: 20px 0;">
-{' '.join(selected_badges)}
-</div>
+<!-- Cita inspiracional destacada -->
+<table>
+<tr>
+<td align="center">
+<h2><em>{random_quote}</em></h2>
+</td>
+</tr>
+</table>
 
-<!-- Estado actual con animación -->
-<div class="float-animation" style="background: linear-gradient(90deg, rgba(255,255,255,0.1), rgba(255,255,255,0.2), rgba(255,255,255,0.1)); border-radius: 25px; padding: 10px 20px; margin: 15px 0; border: 2px solid {glow_color}; display: inline-block;">
-<strong style="color: {glow_color};">{random_emoji} Estado actual:</strong> <em style="color: #FFD700;">{status_text}</em>
-</div>
+<!-- Badges dinámicos en tabla -->
+<table>
+<tr>
+<td align="center">
+{selected_badges[0]}
+</td>
+<td align="center">
+{selected_badges[1]}
+</td>
+</tr>
+</table>
 
-<!-- Sección de código con efectos -->
-<div style="background: linear-gradient(135deg, rgba(0,0,0,0.8), rgba(0,0,0,0.6)); border-radius: 15px; padding: 20px; margin: 20px 0; border: 1px solid {glow_color}; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
+<!-- Estado actual destacado -->
+<h3>
+{random_emoji} <strong>ESTADO ACTUAL:</strong> <em>{status_text}</em> {random_emoji}
+</h3>
+
+<!-- Sección de código destacada -->
+<table>
+<tr>
+<td align="center">
 
 ```python
+# 🚀 CLASE DUSTNACH - DESARROLLADOR DIGITAL 🚀
 class DustNach:
     def __init__(self):
-        self.name = "v31n73"
+        self.name = "v31n73" 
         self.username = "DustNach" 
         self.role = "Full Stack Developer 🚀"
         self.languages = ["Python", "JavaScript", "Java", "C++", "HTML/CSS"]
@@ -198,13 +195,13 @@ class DustNach:
         moods = [
             "🎯 En modo creativo total",
             "🔥 Programando con pasión",
-            "⚡ Energia de desarrollador al máximo",
+            "⚡ Energía de desarrollador al máximo",
             "🎆 Creando magia digital"
         ]
         import random
         return random.choice(moods)
 
-# Instancia del desarrollador
+# ✨ INSTANCIA DEL DESARROLLADOR ✨
 dev = DustNach()
 print(dev.say_hello())
 print(f"Proyecto actual: {{dev.get_current_project()}}")
@@ -212,29 +209,36 @@ print(f"Mood: {{dev.coding_mood()}}")
 print(f"Power Level: {{dev.power_level}}")
 ```
 
-</div>
+</td>
+</tr>
+</table>
 
-<!-- Sección de estadísticas con efectos -->
-<div style="display: flex; justify-content: center; gap: 10px; margin: 20px 0; flex-wrap: wrap;">
-<img src="https://komarev.com/ghpvc/?username=DustNach&color={glow_color.replace('#', '')}&style=for-the-badge&label=Profile+Views" alt="Profile Views" class="pulse-animation"/>
-<img src="https://img.shields.io/badge/Status-Active-{glow_color.replace('#', '')}.svg?style=for-the-badge" alt="Status" class="float-animation"/>
-<img src="https://img.shields.io/badge/Mood-Creative-{glow_color.replace('#', '')}.svg?style=for-the-badge" alt="Mood" class="pulse-animation"/>
-</div>
+<!-- Sección de estadísticas -->
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=DustNach&color={glow_color.replace('#', '')}&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
+<img src="https://img.shields.io/badge/Status-Active-{glow_color.replace('#', '')}.svg?style=for-the-badge" alt="Status"/>
+<img src="https://img.shields.io/badge/Mood-Creative-{glow_color.replace('#', '')}.svg?style=for-the-badge" alt="Mood"/>
+</p>
 
-<!-- Timestamp con efectos -->
-<div style="background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent); padding: 10px; border-radius: 10px; margin: 20px 0;">
-<em style="color: {glow_color}; font-size: 14px;">🕒 Última actualización: {timestamp}</em>
-</div>
+<!-- Separador visual -->
+<p align="center">
+{theme_emoji}────────────────────────────────────────────{theme_emoji}
+</p>
 
-<!-- Línea final decorativa -->
-<div style="height: 2px; background: linear-gradient(90deg, transparent, {glow_color}, transparent); margin: 20px 0; border-radius: 1px;"></div>
+<!-- Timestamp destacado -->
+<h4 align="center">
+🕒 <strong>Última actualización:</strong> {timestamp}
+</h4>
 
-<!-- Mensaje final -->
-<div class="pulse-animation" style="margin: 15px 0;">
-<h4 style="color: {glow_color}; margin: 0;">{theme_emoji} ¡Gracias por visitar mi perfil dinámico! {theme_emoji}</h4>
-</div>
+<!-- Mensaje final llamativo -->
+<h2 align="center">
+{theme_emoji} ¡GRACIAS POR VISITAR MI PERFIL DINÁMICO! {theme_emoji}
+</h2>
 
-</div>
+<!-- Separador final -->
+<p align="center">
+{theme_emoji}{random_emoji}{extra_emoji}────────────────────────────────────{extra_emoji}{random_emoji}{theme_emoji}
+</p>
 
 </div>"""
     
