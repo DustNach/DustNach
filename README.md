@@ -105,28 +105,135 @@
 
 <br>
 
-<!-- Lenguajes principales en una línea horizontal -->
+<!-- Stack Principal -->
 <div align="center">
 <img src="https://img.shields.io/badge/Python-10b981?style=for-the-badge&logo=python&logoColor=white" alt="Python"/> 
 <img src="https://img.shields.io/badge/JavaScript-10b981?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/> 
-<img src="https://img.shields.io/badge/Java-10b981?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/> 
-<img src="https://img.shields.io/badge/C++-10b981?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/> 
-<img src="https://img.shields.io/badge/HTML5-10b981?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+<img src="https://img.shields.io/badge/HTML5-10b981?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/> 
+<img src="https://img.shields.io/badge/CSS3-10b981?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/> 
+<img src="https://img.shields.io/badge/SQL-10b981?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
 </div>
 
 <br>
 
+<!-- Frameworks & Libraries -->
 <div align="center">
-<img src="https://img.shields.io/badge/CSS3-10b981?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/> 
+<img src="https://img.shields.io/badge/Django-10b981?style=for-the-badge&logo=django&logoColor=white" alt="Django"/> 
+<img src="https://img.shields.io/badge/Django_REST-10b981?style=for-the-badge&logo=django&logoColor=white" alt="Django REST"/> 
 <img src="https://img.shields.io/badge/React-10b981?style=for-the-badge&logo=react&logoColor=white" alt="React"/> 
-<img src="https://img.shields.io/badge/Node.js-10b981?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/> 
+<img src="https://img.shields.io/badge/PySide6-10b981?style=for-the-badge&logo=qt&logoColor=white" alt="PySide6"/> 
+<img src="https://img.shields.io/badge/Bootstrap-10b981?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+</div>
+
+<br>
+
+<!-- Databases & Cloud -->
+<div align="center">
+<img src="https://img.shields.io/badge/PostgreSQL-10b981?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/> 
+<img src="https://img.shields.io/badge/SQLite-10b981?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/> 
+<img src="https://img.shields.io/badge/Redis-10b981?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/> 
+<img src="https://img.shields.io/badge/Azure-10b981?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"/> 
+<img src="https://img.shields.io/badge/Docker-10b981?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+</div>
+
+<br>
+
+<!-- DevOps & Tools -->
+<div align="center">
 <img src="https://img.shields.io/badge/Git-10b981?style=for-the-badge&logo=git&logoColor=white" alt="Git"/> 
-<img src="https://img.shields.io/badge/VS_Code-10b981?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-10b981?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"/> 
+<img src="https://img.shields.io/badge/Apache_Kafka-10b981?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Apache Kafka"/> 
+<img src="https://img.shields.io/badge/Linux-10b981?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/> 
+<img src="https://img.shields.io/badge/Kali_Linux-10b981?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
+</div>
+
+<br>
+
+<!-- AI & Security -->
+<div align="center">
+<img src="https://img.shields.io/badge/Machine_Learning-10b981?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Machine Learning"/> 
+<img src="https://img.shields.io/badge/OpenAI_API-10b981?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API"/> 
+<img src="https://img.shields.io/badge/JWT-10b981?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/> 
+<img src="https://img.shields.io/badge/Nmap-10b981?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/> 
+<img src="https://img.shields.io/badge/VNC-10b981?style=for-the-badge&logo=vnc&logoColor=white" alt="VNC"/>
 </div>
 
 <!-- Mensaje sobre lenguajes -->
 <div align="center">
 <h4>✨ <em>"Cada lenguaje es una nueva forma de pensar y crear"</em> ✨</h4>
+</div>
+
+<br>
+
+<!-- Separador con efecto para proyectos -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=6" alt="Divider"/>
+
+<br>
+
+<!-- Sección de proyectos destacados -->
+<div align="center">
+<h2>🚀 <strong>PROYECTOS DESTACADOS</strong> 🚀</h2>
+</div>
+
+<br>
+
+<!-- Grid de proyectos -->
+<table align="center" width="95%" cellpadding="15" cellspacing="0">
+<tr>
+<td align="center" width="50%">
+
+### 🐶 Sistema Veterinaria "Amigo Mascota"
+**Stack:** Python • Django • React • PostgreSQL • Azure • IA  
+*Plataforma completa para gestión veterinaria con WhatsApp y diagnóstico IA*
+
+</td>
+<td align="center" width="50%">
+
+### ⚖️ Sistema de Gestión Legal
+**Stack:** Python • Django • PostgreSQL • Bootstrap  
+*Sistema web para abogados con arquitectura SOLID y patrón MVC*
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+### 📱 Perfil Dinámico GitHub
+**Stack:** Python • GitHub Actions • Markdown  
+*Banner ASCII dinámico con actualización automática cada 4 horas*
+
+</td>
+<td align="center" width="50%">
+
+### 📊 Sistema de Inventario & Resoluciones
+**Stack:** Python • PySide6 • SQLite • Qt  
+*Aplicaciones desktop para gestión empresarial*
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+### 🎨 Plataforma de Arte Digital
+**Stack:** HTML • CSS • JavaScript • Responsive  
+*eCommerce multiplataforma para venta de cuadros artísticos*
+
+</td>
+<td align="center" width="50%">
+
+### 🧠 Landing IAfest.cl
+**Stack:** HTML • CSS • JavaScript • Startup  
+*Página informativa sobre IA impulsada por "Iwie Space"*
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- Mensaje sobre proyectos -->
+<div align="center">
+<h4>🎆 <em>"Cada proyecto es una oportunidad de innovar y crear impacto"</em> 🎆</h4>
 </div>
 
 <br>
@@ -142,50 +249,58 @@
 <td align="center">
 
 ```python
-# 🚀 CLASE DUSTNACH - DESARROLLADOR DIGITAL 🚀
+# 🚀 CLASE DUSTNACH - DESARROLLADOR PROFESIONAL 🚀
 class DustNach:
     def __init__(self):
         self.name = "v31n73" 
         self.username = "DustNach" 
-        self.role = "Full Stack Developer 🚀"
-        self.languages = ["Python", "JavaScript", "Java", "C++", "HTML/CSS"]
-        self.passion = ["AI 🤖", "Web Dev 🌐", "Game Dev 🎮", "Music Production 🎵"]
-        self.current_focus = "Building amazing digital experiences ✨"
-        self.status = "🔥 Siempre aprendiendo, siempre creando"
-        self.power_level = "Over 9000! 💪"
+        self.role = "Full Stack Developer & Tech Innovator 🚀"
+        self.languages = ["Python", "JavaScript", "HTML/CSS", "SQL"]
+        self.frameworks = ["Django", "React", "PySide6", "Bootstrap"]
+        self.databases = ["PostgreSQL", "SQLite", "Redis"]
+        self.cloud_tools = ["Azure", "Docker", "Apache Kafka"]
+        self.specialties = ["AI Integration 🤖", "Web Development 🌐", "Desktop Apps 🖥️", "DevOps ⚙️"]
+        self.current_focus = "Desarrollando soluciones empresariales innovadoras ✨"
+        self.status = "🔥 Construyendo el futuro digital"
+        self.experience_level = "Avanzado 🏆"
     
     def say_hello(self):
-        return "¡Hola! Bienvenido a mi universo digital 🌌👋"
+        return "¡Hola! Bienvenido a mi portafolio profesional 🌌👋"
     
     def get_current_project(self):
-        projects = [
-            "🎮 Desarrollando un juego indie revolucionario",
-            "🤖 Creando un bot con IA avanzada", 
-            "🎵 App de producción musical futurista",
-            "💻 Plataforma web de próxima generación",
-            "🚀 Herramientas de desarrollo innovadoras",
-            "🌌 Sistema de realidad virtual inmersivo",
-            "✨ Framework de desarrollo ultra rápido"
+        real_projects = [
+            "🐶 Sistema Veterinaria 'Amigo Mascota' - Django + React + IA",
+            "⚖️ Plataforma Legal - Arquitectura SOLID con Django", 
+            "📊 Sistema de Inventario - PySide6 + SQLite",
+            "🎨 eCommerce de Arte Digital - Full Stack",
+            "📱 Perfil GitHub Dinámico - Python + GitHub Actions",
+            "🧠 Landing IAfest.cl - Startup Tech",
+            "🔍 Configuración Kali Linux + VNC - Ciberseguridad"
         ]
         import random
-        return random.choice(projects)
+        return random.choice(real_projects)
     
-    def coding_mood(self):
-        moods = [
-            "🎯 En modo creativo total",
-            "🔥 Programando con pasión",
-            "⚡ Energía de desarrollador al máximo",
-            "🎆 Creando magia digital"
-        ]
-        import random
-        return random.choice(moods)
+    def get_tech_stack(self):
+        return {
+            "Backend": "Python + Django + Django REST Framework",
+            "Frontend": "React + HTML5 + CSS3 + JavaScript",
+            "Database": "PostgreSQL + SQLite + Redis",
+            "Cloud": "Azure + Docker + Apache Kafka",
+            "Desktop": "PySide6 + Qt Framework",
+            "DevOps": "Git + GitHub Actions + Linux",
+            "AI/ML": "OpenAI API + Machine Learning Integration"
+        }
+    
+    def coding_philosophy(self):
+        return "🎯 Código limpio, arquitectura sólida, innovación constante"
 
 # ✨ INSTANCIA DEL DESARROLLADOR ✨
 dev = DustNach()
 print(dev.say_hello())
 print(f"Proyecto actual: {dev.get_current_project()}")
-print(f"Mood: {dev.coding_mood()}")
-print(f"Power Level: {dev.power_level}")
+print(f"Tech Stack: {dev.get_tech_stack()['Backend']}")
+print(f"Filosofía: {dev.coding_philosophy()}")
+print(f"Nivel: {dev.experience_level}")
 ```
 
 </td>
