@@ -22,46 +22,60 @@ def generate_v31n73_banner():
     now = datetime.datetime.now()
     hour = now.hour
     
-    # Seleccionar tema de color basado en la hora
-    if 6 <= hour < 12:  # Mañana - Amanecer
-        gradient_colors = "from-yellow-400 via-orange-500 to-red-500"
-        glow_color = "#FFD700"
-        theme_emoji = "🌅"
-    elif 12 <= hour < 18:  # Tarde - Energía
-        gradient_colors = "from-blue-400 via-purple-500 to-pink-500"
-        glow_color = "#00BFFF"
-        theme_emoji = "⚡"
-    elif 18 <= hour < 22:  # Noche - Creatividad
-        gradient_colors = "from-purple-600 via-pink-600 to-blue-600"
-        glow_color = "#9D4EDD"
-        theme_emoji = "🌙"
-    else:  # Madrugada - Misterio
-        gradient_colors = "from-indigo-900 via-purple-900 to-pink-900"
-        glow_color = "#4C1D95"
-        theme_emoji = "🌌"
+    # Seleccionar tema masculino basado en la hora
+    if 6 <= hour < 12:  # Mañana - Profesional
+        primary_color = "#1e3a8a"  # Azul oscuro profesional
+        secondary_color = "#1f2937"  # Gris oscuro
+        accent_color = "#3b82f6"  # Azul brillante
+        theme_emoji = "⚙️"  # Engranaje
+        theme_name = "PROFESSIONAL"
+    elif 12 <= hour < 18:  # Tarde - Tecnológico
+        primary_color = "#0f172a"  # Negro azulado
+        secondary_color = "#334155"  # Gris azulado
+        accent_color = "#06b6d4"  # Cian tecnológico
+        theme_emoji = "🔧"  # Llave inglesa
+        theme_name = "TECH"
+    elif 18 <= hour < 22:  # Noche - Elegante
+        primary_color = "#111827"  # Negro elegante
+        secondary_color = "#374151"  # Gris medio
+        accent_color = "#10b981"  # Verde esmeralda
+        theme_emoji = "🎯"  # Diana
+        theme_name = "ELITE"
+    else:  # Madrugada - Misterioso
+        primary_color = "#0c0a09"  # Negro profundo
+        secondary_color = "#292524"  # Marrón oscuro
+        accent_color = "#f59e0b"  # Dorado
+        theme_emoji = "⚡"  # Rayo
+        theme_name = "STEALTH"
     
-    # Banner ultra llamativo compatible con GitHub
+    # Banner masculino con efectos visuales
     ascii_art = f"""<div align="center">
 
-<!-- Banner principal con diseño llamativo -->
+<!-- Header con tema dinámico -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color={accent_color.replace('#', '')}&height=100&section=header&text=MODE:%20{theme_name}&fontSize=20&fontColor=ffffff&animation=fadeIn" alt="Header"/>
+
+<!-- Banner principal con diseño masculino -->
 <table>
 <tr>
 <td align="center">
 
 ```
-┌──────────────────────────────────────────────────────────────────────┐
-│  {theme_emoji}  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   {theme_emoji}  │
-│     ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗     │
-│     ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝     │
-│     ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗     │
-│      ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝      │
-│       ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝       │
-└──────────────────────────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  {theme_emoji}  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   {theme_emoji}  ┃
+┃     ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗     ┃
+┃     ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝     ┃
+┃     ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗     ┃
+┃      ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝      ┃
+┃       ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝       ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
 </td>
 </tr>
-</table>"""
+</table>
+
+<!-- Efecto visual con typing SVG -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=28&duration=3000&pause=1000&color={accent_color.replace('#', '')}&center=true&vCenter=true&multiline=true&width=600&height=100&lines=FULL+STACK+DEVELOPER;DIGITAL+CREATOR;TECH+INNOVATOR" alt="Typing SVG" />"""
     
     # Obtener fecha y hora actual
     now = datetime.datetime.now()
@@ -77,15 +91,15 @@ def generate_v31n73_banner():
     
     # Badges dinámicos y llamativos
     skill_badges = [
-        f'<img src="https://img.shields.io/badge/Python-Expert-{glow_color.replace("#", "")}.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>',
-        f'<img src="https://img.shields.io/badge/JavaScript-Pro-{glow_color.replace("#", "")}.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>',
-        f'<img src="https://img.shields.io/badge/AI-Enthusiast-{glow_color.replace("#", "")}.svg?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI"/>',
-        f'<img src="https://img.shields.io/badge/Web_Dev-Master-{glow_color.replace("#", "")}.svg?style=for-the-badge&logo=react&logoColor=white" alt="Web Dev"/>'
+        f'<img src="https://img.shields.io/badge/Python-Expert-{accent_color.replace("#", "")}.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>',
+        f'<img src="https://img.shields.io/badge/JavaScript-Pro-{accent_color.replace("#", "")}.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>',
+        f'<img src="https://img.shields.io/badge/AI-Enthusiast-{accent_color.replace("#", "")}.svg?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI"/>',
+        f'<img src="https://img.shields.io/badge/Web_Dev-Master-{accent_color.replace("#", "")}.svg?style=for-the-badge&logo=react&logoColor=white" alt="Web Dev"/>'
     ]
     selected_badges = random.sample(skill_badges, 2)  # Seleccionar 2 badges aleatorios
     
     # Lenguajes de programación con badges llamativos
-    color_hex = glow_color.replace('#', '')
+    color_hex = accent_color.replace('#', '')
     programming_languages = [
         f'<img src="https://img.shields.io/badge/Python-{color_hex}?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>',
         f'<img src="https://img.shields.io/badge/JavaScript-{color_hex}?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>',
@@ -134,23 +148,40 @@ def generate_v31n73_banner():
 
 {ascii_art}
 
-<!-- Sección de título con emojis llamativos -->
-<h1>
-{random_emoji} <strong>DESARROLLADOR FULL STACK</strong> {random_emoji}<br>
-{extra_emoji} <strong>CREADOR DIGITAL</strong> {extra_emoji}<br>
-{theme_emoji} <strong>INNOVADOR TECNOLÓGICO</strong> {theme_emoji}
-</h1>
+<!-- Separador con efecto -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Divider"/>
 
-<!-- Separador visual -->
-<p>
-{theme_emoji}────────────────────────────────────────────{theme_emoji}
-</p>
+<!-- Panel de estado profesional -->
+<table align="center">
+<tr>
+<td align="center" width="33%">
+    <img src="https://img.shields.io/badge/STATUS-{status_text.replace(' ', '%20')}-{accent_color.replace('#', '')}?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status"/>
+</td>
+<td align="center" width="33%">
+    <img src="https://img.shields.io/badge/MODE-{theme_name}-{primary_color.replace('#', '')}?style=for-the-badge&logo=atom&logoColor=white" alt="Mode"/>
+</td>
+<td align="center" width="33%">
+    <img src="https://img.shields.io/badge/LEVEL-EXPERT-{accent_color.replace('#', '')}?style=for-the-badge&logo=starship&logoColor=white" alt="Level"/>
+</td>
+</tr>
+</table>
+
+<!-- Estadísticas principales -->
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=DustNach&show_icons=true&theme=dark&bg_color={primary_color.replace('#', '')}&title_color={accent_color.replace('#', '')}&icon_color={accent_color.replace('#', '')}&text_color=ffffff&border_color={secondary_color.replace('#', '')}" alt="GitHub Stats" height="165"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DustNach&layout=compact&theme=dark&bg_color={primary_color.replace('#', '')}&title_color={accent_color.replace('#', '')}&text_color=ffffff&border_color={secondary_color.replace('#', '')}" alt="Top Languages" height="165"/>
+</div>
+
+<!-- Contador de visitas con estilo -->
+<div align="center">
+    <img src="https://komarev.com/ghpvc/?username=DustNach&label=PROFILE%20VIEWS&color={accent_color.replace('#', '')}&style=for-the-badge" alt="Profile views" />
+</div>
 
 <!-- Cita inspiracional destacada -->
-<table>
+<table align="center">
 <tr>
 <td align="center">
-<h2><em>{random_quote}</em></h2>
+<h3><em>{random_quote}</em></h3>
 </td>
 </tr>
 </table>
@@ -267,26 +298,16 @@ print(f"Power Level: {{dev.power_level}}")
 </tr>
 </table>
 
-<!-- Sección de estadísticas -->
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=DustNach&color={glow_color.replace('#', '')}&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
-<img src="https://img.shields.io/badge/Status-Active-{glow_color.replace('#', '')}.svg?style=for-the-badge" alt="Status"/>
-<img src="https://img.shields.io/badge/Mood-Creative-{glow_color.replace('#', '')}.svg?style=for-the-badge" alt="Mood"/>
-</p>
+<!-- Footer masculino con efectos visuales -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Divider"/>
 
-<!-- Separador visual -->
-<p align="center">
-{theme_emoji}────────────────────────────────────────────{theme_emoji}
-</p>
+<!-- Timestamp con estilo -->
+<div align="center">
+    <img src="https://img.shields.io/badge/LAST%20UPDATE-{timestamp.replace(' ', '%20').replace(':', '%3A')}-{accent_color.replace('#', '')}?style=for-the-badge&logo=clockify&logoColor=white" alt="Last Update"/>
+</div>
 
-<!-- Timestamp destacado -->
-<h4 align="center">
-🕒 <strong>Última actualización:</strong> {timestamp}
-</h4>
-
-<!-- Mensaje final llamativo -->
-<h2 align="center">
-{theme_emoji} ¡GRACIAS POR VISITAR MI PERFIL DINÁMICO! {theme_emoji}
+<!-- Footer con wave effect -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color={accent_color.replace('#', '')}&height=100&section=footer&text=THANKS%20FOR%20VISITING&fontSize=20&fontColor=ffffff&animation=fadeIn" alt="Footer"/>
 </h2>
 
 <!-- Separador final -->

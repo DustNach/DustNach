@@ -3,43 +3,66 @@
 
 <div align="center">
 
-<!-- Banner principal con diseño llamativo -->
+<!-- Header con tema dinámico -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=100&section=header&text=MODE:%20ELITE&fontSize=20&fontColor=ffffff&animation=fadeIn" alt="Header"/>
+
+<!-- Banner principal con diseño masculino -->
 <table>
 <tr>
 <td align="center">
 
 ```
-┌──────────────────────────────────────────────────────────────────────┐
-│  🌙  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   🌙  │
-│     ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗     │
-│     ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝     │
-│     ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗     │
-│      ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝      │
-│       ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝       │
-└──────────────────────────────────────────────────────────────────────┘
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  🎯  ██╗   ██╗██████╗  ██╗███╗   ██╗███████╗██████╗   🎯  ┃
+┃     ██║   ██║╚════██╗███║████╗  ██║╚════██║╚════██╗     ┃
+┃     ██║   ██║ █████╔╝╚██║██╔██╗ ██║    ██╔╝ █████╔╝     ┃
+┃     ╚██╗ ██╔╝ ╚═══██╗ ██║██║╚██╗██║   ██╔╝  ╚═══██╗     ┃
+┃      ╚████╔╝ ██████╔╝ ██║██║ ╚████║   ██║   ██████╔╝      ┃
+┃       ╚═══╝  ╚═════╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═════╝       ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
 </td>
 </tr>
 </table>
 
-<!-- Sección de título con emojis llamativos -->
-<h1>
-🎵 <strong>DESARROLLADOR FULL STACK</strong> 🎵<br>
-✨ <strong>CREADOR DIGITAL</strong> ✨<br>
-🌙 <strong>INNOVADOR TECNOLÓGICO</strong> 🌙
-</h1>
+<!-- Efecto visual con typing SVG -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=28&duration=3000&pause=1000&color=10b981&center=true&vCenter=true&multiline=true&width=600&height=100&lines=FULL+STACK+DEVELOPER;DIGITAL+CREATOR;TECH+INNOVATOR" alt="Typing SVG" />
 
-<!-- Separador visual -->
-<p>
-🌙────────────────────────────────────────────🌙
-</p>
+<!-- Separador con efecto -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Divider"/>
+
+<!-- Panel de estado profesional -->
+<table align="center">
+<tr>
+<td align="center" width="33%">
+    <img src="https://img.shields.io/badge/STATUS-Hora%20de%20crear%20y%20experimentar-10b981?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status"/>
+</td>
+<td align="center" width="33%">
+    <img src="https://img.shields.io/badge/MODE-ELITE-111827?style=for-the-badge&logo=atom&logoColor=white" alt="Mode"/>
+</td>
+<td align="center" width="33%">
+    <img src="https://img.shields.io/badge/LEVEL-EXPERT-10b981?style=for-the-badge&logo=starship&logoColor=white" alt="Level"/>
+</td>
+</tr>
+</table>
+
+<!-- Estadísticas principales -->
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=DustNach&show_icons=true&theme=dark&bg_color=111827&title_color=10b981&icon_color=10b981&text_color=ffffff&border_color=374151" alt="GitHub Stats" height="165"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DustNach&layout=compact&theme=dark&bg_color=111827&title_color=10b981&text_color=ffffff&border_color=374151" alt="Top Languages" height="165"/>
+</div>
+
+<!-- Contador de visitas con estilo -->
+<div align="center">
+    <img src="https://komarev.com/ghpvc/?username=DustNach&label=PROFILE%20VIEWS&color=10b981&style=for-the-badge" alt="Profile views" />
+</div>
 
 <!-- Cita inspiracional destacada -->
-<table>
+<table align="center">
 <tr>
 <td align="center">
-<h2><em>🌙 'El código elegante es arte en su forma más pura'</em></h2>
+<h3><em>🎯 'Programar es esculpir el futuro con lógica'</em></h3>
 </td>
 </tr>
 </table>
@@ -48,17 +71,17 @@
 <table>
 <tr>
 <td align="center">
-<img src="https://img.shields.io/badge/JavaScript-Pro-9D4EDD.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/Web_Dev-Master-10b981.svg?style=for-the-badge&logo=react&logoColor=white" alt="Web Dev"/>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/AI-Enthusiast-9D4EDD.svg?style=for-the-badge&logo=tensorflow&logoColor=white" alt="AI"/>
+<img src="https://img.shields.io/badge/JavaScript-Pro-10b981.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>
 </td>
 </tr>
 </table>
 
 <!-- Estado actual destacado -->
 <h3>
-🎵 <strong>ESTADO ACTUAL:</strong> <em>Hora de crear y experimentar</em> 🎵
+💻 <strong>ESTADO ACTUAL:</strong> <em>Hora de crear y experimentar</em> 💻
 </h3>
 
 <!-- Sección de lenguajes de programación -->
@@ -68,31 +91,31 @@
 
 <!-- Separador para lenguajes -->
 <p>
-🌙────────────────────────────────────────────🌙
+🎯────────────────────────────────────────────🎯
 </p>
 
 <!-- Lenguajes principales en tabla -->
 <table>
 <tr>
-<td align="center"><img src="https://img.shields.io/badge/Python-9D4EDD?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></td>
-<td align="center"><img src="https://img.shields.io/badge/JavaScript-9D4EDD?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/></td>
-<td align="center"><img src="https://img.shields.io/badge/Java-9D4EDD?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Python-10b981?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></td>
+<td align="center"><img src="https://img.shields.io/badge/JavaScript-10b981?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Java-10b981?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/></td>
 </tr>
 <tr>
-<td align="center"><img src="https://img.shields.io/badge/C++-9D4EDD?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/></td>
-<td align="center"><img src="https://img.shields.io/badge/HTML5-9D4EDD?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/></td>
-<td align="center"><img src="https://img.shields.io/badge/CSS3-9D4EDD?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/></td>
+<td align="center"><img src="https://img.shields.io/badge/C++-10b981?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/></td>
+<td align="center"><img src="https://img.shields.io/badge/HTML5-10b981?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/></td>
+<td align="center"><img src="https://img.shields.io/badge/CSS3-10b981?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/></td>
 </tr>
 <tr>
-<td align="center"><img src="https://img.shields.io/badge/React-9D4EDD?style=for-the-badge&logo=react&logoColor=white" alt="React"/></td>
-<td align="center"><img src="https://img.shields.io/badge/Node.js-9D4EDD?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/></td>
-<td align="center"><img src="https://img.shields.io/badge/Git-9D4EDD?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></td>
+<td align="center"><img src="https://img.shields.io/badge/React-10b981?style=for-the-badge&logo=react&logoColor=white" alt="React"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Node.js-10b981?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/></td>
+<td align="center"><img src="https://img.shields.io/badge/Git-10b981?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></td>
 </tr>
 </table>
 
 <!-- Herramientas adicionales -->
 <p align="center">
-<img src="https://img.shields.io/badge/VS_Code-9D4EDD?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+<img src="https://img.shields.io/badge/VS_Code-10b981?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
 </p>
 
 <!-- Mensaje sobre lenguajes -->
@@ -156,31 +179,21 @@ print(f"Power Level: {dev.power_level}")
 </tr>
 </table>
 
-<!-- Sección de estadísticas -->
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=DustNach&color=9D4EDD&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
-<img src="https://img.shields.io/badge/Status-Active-9D4EDD.svg?style=for-the-badge" alt="Status"/>
-<img src="https://img.shields.io/badge/Mood-Creative-9D4EDD.svg?style=for-the-badge" alt="Mood"/>
-</p>
+<!-- Footer masculino con efectos visuales -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=4" alt="Divider"/>
 
-<!-- Separador visual -->
-<p align="center">
-🌙────────────────────────────────────────────🌙
-</p>
+<!-- Timestamp con estilo -->
+<div align="center">
+    <img src="https://img.shields.io/badge/LAST%20UPDATE-2025-08-06%2020%3A22%3A01%20UTC-10b981?style=for-the-badge&logo=clockify&logoColor=white" alt="Last Update"/>
+</div>
 
-<!-- Timestamp destacado -->
-<h4 align="center">
-🕒 <strong>Última actualización:</strong> 2025-08-06 20:14:22 UTC
-</h4>
-
-<!-- Mensaje final llamativo -->
-<h2 align="center">
-🌙 ¡GRACIAS POR VISITAR MI PERFIL DINÁMICO! 🌙
+<!-- Footer con wave effect -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=100&section=footer&text=THANKS%20FOR%20VISITING&fontSize=20&fontColor=ffffff&animation=fadeIn" alt="Footer"/>
 </h2>
 
 <!-- Separador final -->
 <p align="center">
-🌙🎵✨────────────────────────────────────✨🎵🌙
+🎯💻🎧────────────────────────────────────🎧💻🎯
 </p>
 
 </div>
