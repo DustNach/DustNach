@@ -61,10 +61,10 @@
 <table align="center" width="100%" cellpadding="10" cellspacing="0">
 <tr>
 <td align="center" width="50%">
-    <img src="https://github-readme-stats.vercel.app/api?username=DustNach&show_icons=true&theme=dark&bg_color=111827&title_color=10b981&icon_color=10b981&text_color=ffffff&border_color=374151" alt="GitHub Stats" height="180" width="400"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=DustNach&show_icons=true&theme=dark&bg_color=111827&title_color=10b981&icon_color=10b981&text_color=ffffff&border_color=374151&cache_seconds=1800" alt="GitHub Stats" height="180" width="400"/>
 </td>
 <td align="center" width="50%">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DustNach&layout=compact&theme=dark&bg_color=111827&title_color=10b981&text_color=ffffff&border_color=374151" alt="Top Languages" height="180" width="400"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DustNach&layout=compact&theme=dark&bg_color=111827&title_color=10b981&text_color=ffffff&border_color=374151&cache_seconds=1800" alt="Top Languages" height="180" width="400"/>
 </td>
 </tr>
 </table>
