@@ -100,6 +100,15 @@ Desarrollador Full Stack con experiencia construyendo soluciones web escalables 
 
 <br>
 
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DustNach&theme=github_dark" alt="Lenguajes por repositorio" height="180"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DustNach&theme=github_dark" alt="Lenguajes por commits" height="180"/>
+
+<br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DustNach&theme=github_dark" alt="Resumen de perfil" width="740"/>
+
+<br>
+
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DustNach&theme=github-compact&hide_border=true&area=true&color=10b981&line=10b981&point=ffffff)
 
 </div>
