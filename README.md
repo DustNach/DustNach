@@ -96,13 +96,11 @@ Desarrollador Full Stack con experiencia construyendo soluciones web escalables 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=DustNach&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="180"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DustNach&layout=compact&count_private=true&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="180"/>
+[![GitHub Streak](https://streak-stats.demolab.com?user=DustNach&theme=github-dark-blue&hide_border=false&border=10b981&ring=10b981&fire=10b981&currStreakLabel=10b981)](https://git.io/streak-stats)
 
 <br>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=DustNach&theme=github-dark-blue&hide_border=false&border=10b981&ring=10b981&fire=10b981&currStreakLabel=10b981)](https://git.io/streak-stats)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DustNach&theme=github-compact&hide_border=true&area=true&color=10b981&line=10b981&point=ffffff)
 
 </div>
 
