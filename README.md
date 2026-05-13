@@ -107,10 +107,6 @@ Desarrollador Full Stack con experiencia construyendo soluciones web escalables 
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DustNach&theme=github_dark" alt="Resumen de perfil" width="740"/>
 
-<br>
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DustNach&theme=github-compact&hide_border=true&area=true&color=10b981&line=10b981&point=ffffff)
-
 </div>
 
 ---
