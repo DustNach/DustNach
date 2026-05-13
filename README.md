@@ -96,9 +96,9 @@ Desarrollador Full Stack con experiencia construyendo soluciones web escalables 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=DustNach&show_icons=true&count_private=true&theme=dark&bg_color=0d1117&title_color=10b981&icon_color=10b981&text_color=ffffff&border_color=10b981&cache_seconds=1800&include_all_commits=true" alt="GitHub Stats" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=DustNach&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="180"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DustNach&layout=compact&count_private=true&theme=dark&bg_color=0d1117&title_color=10b981&text_color=ffffff&border_color=10b981&cache_seconds=1800&langs_count=8" alt="Top Languages" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DustNach&layout=compact&count_private=true&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="180"/>
 
 <br>
 
